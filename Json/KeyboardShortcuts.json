@@ -1,0 +1,34 @@
+[
+    {
+      "key": "ctrl+p",
+      "command": "workbench.action.showCommands"
+    },
+    {
+      "key": "ctrl+o",
+      "command": "workbench.action.quickOpen"
+    },
+    {
+      "key": "ctrl+shift+o",
+      "command": "revealFileInOS"
+    },
+    {
+      "key": "ctrl+r",
+      "command": "workbench.action.gotoSymbol"
+    },
+    {
+      "key": "ctrl+o",
+      "command": "workbench.action.quickOpen"
+    },
+    {
+      "key": "ctrl+t",
+      "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+      "key": "ctrl+n",
+      "command": "explorer.newFile"
+    },
+    {
+      "key": "ctrl+d",
+      "command": "explorer.newFolder"
+    }
+  ]  
