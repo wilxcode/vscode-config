@@ -1,9 +1,5 @@
 {
-    "workbench.colorTheme": "Space Night",
-    "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
-
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
 
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
@@ -12,11 +8,12 @@
     "editor.suggest.insertMode": "replace",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
-    "editor.fontSize": 14.95,
+    "editor.fontSize": 15,
     "editor.lineHeight": 26,
     "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
 
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onFocusChange",
 
     "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
@@ -42,7 +39,28 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 
     "javascript.preferences.importModuleSpecifierEnding": "js",
-    "typescript.preferences.importModuleSpecifierEnding": "js"
+    "typescript.preferences.importModuleSpecifierEnding": "js",
+
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Space Night",
+
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "cSpell.ignoreWords": [
+        "ecma",
+        "wilfriedprombo"
+    ],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
