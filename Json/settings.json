@@ -42,10 +42,7 @@
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-
-    "javascript.preferences.importModuleSpecifierEnding": "js",
-    "typescript.preferences.importModuleSpecifierEnding": "js",
-
+    
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
 
