@@ -27,7 +27,11 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
+
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[html]": {
@@ -42,7 +46,21 @@
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "html.completion.attributeDefaultValue": "singlequotes",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
 
@@ -53,11 +71,9 @@
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
     "liveServer.settings.donotShowInfoMsg": true,
-    "cSpell.ignoreWords": [
-        "ecma",
-        "wilfriedprombo"
-    ],
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+
+    "tailwind-fold.foldStyle": "QUOTES",
+    "tailwind-fold.unfoldIfLineSelected": true,
+    "template-string-converter.autoRemoveTemplateString": true,
+    "template-string-converter.addBracketsToProps": true
 }
