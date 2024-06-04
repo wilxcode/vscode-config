@@ -1,11 +1,16 @@
 {
   "workbench.startupEditor": "none",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 6,
+  "workbench.tree.indent": 20,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Space Night",
 
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
   "editor.renderWhitespace": "trailing",
   "editor.linkedEditing": true,
-  "editor.suggest.insertMode": "replace",
+  "editor.suggest.insertMode": "insert",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
   "editor.fontSize": 15,
@@ -20,14 +25,16 @@
   },
 
   "files.autoSave": "onFocusChange",
+  "files.associations": {
+    "*.{css,scss,sass}": "tailwindcss"
+  },
 
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
 
-  "workbench.tree.indent": 20,
-
   "emmet.triggerExpansionOnTab": true,
+
   "cSpell.language": "en,fr",
 
   "gitlens.currentLine.enabled": false,
@@ -49,6 +56,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -67,36 +77,57 @@
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
 
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Space Night",
 
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+  "terminal.integrated.env.osx": {},
+
   "liveServer.settings.donotShowInfoMsg": true,
 
   "tailwind-fold.foldStyle": "QUOTES",
   "tailwind-fold.unfoldIfLineSelected": true,
-  "tailwind-fold.showTailwindImage": false,
-  "template-string-converter.autoRemoveTemplateString": true,
-  "template-string-converter.addBracketsToProps": true,
   "tailwind-fold.autoFold": true,
+
+  "template-string-converter.convertOutermostQuotes": true,
+  "template-string-converter.addBracketsToProps": true,
+
+  "codesnap.showWindowTitle": true,
+  "codesnap.backgroundColor": "#4B369D",
+
+  "svg.preview.mode": "svg",
+
+  "diffEditor.hideUnchangedRegions.enabled": true,
 
   "cSpell.ignoreWords": [
     "Meslo",
     "Prombo",
+    "Shadcn",
     "clsx",
+    "codeium",
+    "codesnap",
     "donot",
+    "embla",
     "esbenp",
+    "esnext",
+    "geist",
+    "grnd",
+    "heroicons",
+    "hookform",
+    "kmph",
+    "nextauth",
+    "nominatim",
     "pnpx",
+    "prisma",
+    "shadcn",
     "singlequotes",
-    "tailwindcss"
+    "tailwindcss",
+    "tanstack",
+    "usehooks",
+    "zustand"
   ],
-  "terminal.integrated.env.osx": {},
-  "files.associations": {
-    "*.{css,scss,sass}": "tailwindcss"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+
+  "console-ninja.featureSet": "Community",
+  
+  "codeium.enableCodeLens": false
 }
