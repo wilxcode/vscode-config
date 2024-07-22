@@ -77,7 +77,6 @@
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
 
-
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
@@ -88,46 +87,24 @@
   "tailwind-fold.foldStyle": "QUOTES",
   "tailwind-fold.unfoldIfLineSelected": true,
   "tailwind-fold.autoFold": true,
-
   "template-string-converter.convertOutermostQuotes": true,
   "template-string-converter.addBracketsToProps": true,
-
   "codesnap.showWindowTitle": true,
   "codesnap.backgroundColor": "#4B369D",
-
   "svg.preview.mode": "svg",
-
-  "diffEditor.hideUnchangedRegions.enabled": true,
-
-  "cSpell.ignoreWords": [
-    "Meslo",
-    "Prombo",
-    "Shadcn",
-    "clsx",
-    "codeium",
-    "codesnap",
-    "donot",
-    "embla",
-    "esbenp",
-    "esnext",
-    "geist",
-    "grnd",
-    "heroicons",
-    "hookform",
-    "kmph",
-    "nextauth",
-    "nominatim",
-    "pnpx",
-    "prisma",
-    "shadcn",
-    "singlequotes",
-    "tailwindcss",
-    "tanstack",
-    "usehooks",
-    "zustand"
-  ],
-
   "console-ninja.featureSet": "Community",
-  
-  "codeium.enableCodeLens": false
+
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
+  },
+  "supermaven.allowGitignore": true
 }
