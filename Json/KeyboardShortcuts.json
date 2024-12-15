@@ -1,34 +1,28 @@
 [
-    {
-      "key": "ctrl+p",
-      "command": "workbench.action.showCommands"
-    },
-    {
-      "key": "ctrl+o",
-      "command": "workbench.action.quickOpen"
-    },
-    {
-      "key": "ctrl+shift+o",
-      "command": "revealFileInOS"
-    },
-    {
-      "key": "ctrl+r",
-      "command": "workbench.action.gotoSymbol"
-    },
-    {
-      "key": "ctrl+o",
-      "command": "workbench.action.quickOpen"
-    },
-    {
-      "key": "ctrl+t",
-      "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-      "key": "ctrl+n",
-      "command": "explorer.newFile"
-    },
-    {
-      "key": "ctrl+d",
-      "command": "explorer.newFolder"
+  {
+    "key": "cmd+r f",
+    "command": "-workbench.action.closeFolder",
+    "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "cmd+d",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
     }
-  ]  
+  }
+]
