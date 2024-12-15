@@ -1,7 +1,7 @@
 [
   {
-    "key": "cmd+r f",
-    "command": "-workbench.action.closeFolder",
+    "key": "cmd+c",
+    "command": "workbench.action.closeFolder",
     "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
   },
   {
