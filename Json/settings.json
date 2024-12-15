@@ -1,16 +1,18 @@
 {
-  "workbench.startupEditor": "none",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
   "workbench.tree.indent": 20,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Space Night",
 
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.autoSave": "onFocusChange",
+
+  "editor.formatOnSave": true,
   "editor.renderWhitespace": "trailing",
   "editor.linkedEditing": true,
-  "editor.suggest.insertMode": "insert",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
   "editor.fontSize": 15,
@@ -23,15 +25,12 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
-
-  "files.autoSave": "onFocusChange",
-  "files.associations": {
-    "*.{css,scss,sass}": "tailwindcss"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
   },
 
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
 
   "emmet.triggerExpansionOnTab": true,
 
@@ -68,14 +67,24 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
 
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "single",
+
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
+
   "html.completion.attributeDefaultValue": "singlequotes",
+
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
+  "prettier.semi": false,
 
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.defaultProfile.osx": "zsh",
@@ -87,16 +96,14 @@
   "tailwind-fold.foldStyle": "QUOTES",
   "tailwind-fold.unfoldIfLineSelected": true,
   "tailwind-fold.autoFold": true,
+
   "template-string-converter.convertOutermostQuotes": true,
   "template-string-converter.addBracketsToProps": true,
-  "codesnap.showWindowTitle": true,
-  "codesnap.backgroundColor": "#4B369D",
-  "svg.preview.mode": "svg",
-  "console-ninja.featureSet": "Community",
 
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
+  "codesnap.backgroundColor": "#5A42BE",
+  "codesnap.roundedCorners": true,
+
+  "svg.preview.mode": "svg",
 
   "cSpell.customDictionaries": {
     "custom-dictionary-user": {
@@ -106,5 +113,10 @@
       "scope": "user"
     }
   },
-  "supermaven.allowGitignore": true
+
+  "terminal.integrated.allowChords": false,
+  "supermaven.enableFixWithSupermaven": true,
+  "supermaven.enable": {
+    "*": true
+  }
 }
