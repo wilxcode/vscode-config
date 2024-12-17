@@ -1,6 +1,6 @@
 [
   {
-    "key": "cmd+c",
+    "key": "cmd+r c",
     "command": "workbench.action.closeFolder",
     "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
   },
