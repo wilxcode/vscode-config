@@ -1,15 +1,10 @@
 [
   {
-    "key": "cmd+r c",
-    "command": "workbench.action.closeFolder",
-    "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
-  },
-  {
     "key": "cmd+n",
     "command": "explorer.newFile"
   },
   {
-    "key": "cmd+d",
+    "key": "cmd+n f",
     "command": "explorer.newFolder"
   },
   {
