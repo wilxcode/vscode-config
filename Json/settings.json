@@ -3,14 +3,14 @@
   "workbench.editor.limit.value": 6,
   "workbench.tree.indent": 20,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Space Night",
+  "workbench.colorTheme": "GitHub Dark",
 
   "files.associations": {
     "*.css": "tailwindcss"
   },
   "files.autoSave": "onFocusChange",
 
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.renderWhitespace": "trailing",
   "editor.linkedEditing": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -118,5 +118,6 @@
   "supermaven.enableFixWithSupermaven": true,
   "supermaven.enable": {
     "*": true
-  }
+  },
+  "workbench.startupEditor": "none",
 }
